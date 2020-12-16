@@ -1,6 +1,3 @@
-import itertools
-
-
 def get_file_content(filename):
     with open(filename) as f:
         return f.read()
